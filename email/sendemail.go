@@ -5,7 +5,6 @@ import (
 	"log"
 )
 
-
 func SendEmail(body string) {
 	email 		:= getUserEmail()
 	password 	:= getUserPassword()
@@ -24,7 +23,4 @@ func SendEmail(body string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	// fmt.Println(senderEmail, senderPassword, to);
-	// auth := smtp.PlainAuth("", senderEmail, senderPassword
 }
