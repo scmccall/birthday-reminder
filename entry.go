@@ -1,12 +1,13 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 
-	"github.com/scmccall/birthday-reminder/email"
+	// "github.com/scmccall/birthday-reminder/email"
+	"github.com/scmccall/birthday-reminder/db"
 )
 
 func main() {
-	 
-	email.SendEmail("Test")
+	 db.ConnectToDB()
+	// email.SendEmail("Test")
 }
